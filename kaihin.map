@@ -1,0 +1,5 @@
+<img src="kai.jpg" width="340" height="300" border="0" usemap="#map" />
+
+<map name="map">
+<area shape="circle" coords="226,111,31" href="veera.htm" />
+</map>
