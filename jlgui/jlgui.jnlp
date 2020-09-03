@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<jnlp spec="1.0+" codebase="https://kompkaikkeen.company/jlgui/index.html" href="jlgui.jnlp">
+<jnlp spec="1.0+" codebase="https://sallad-saxet.github.io/kampikaikkeen/jlgui" href="jlgui.jnlp">
 
   <information>
     <title>jlGui 3.0</title>
