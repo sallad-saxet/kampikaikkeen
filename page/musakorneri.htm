@@ -7,7 +7,7 @@ body {
   background-image: url('../kuva/omat-kuvat/musapatmat.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: left;
   background-size: contain;
   
 }
@@ -25,7 +25,23 @@ img {
 </style>
 </head>
 <body>
-
+ <div id="app" style="height: 100vh">
+        <!-- Webamp will attempt to center itself within this div -->
+    </div>
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        new Webamp({
+            initialTracks: [{
+                metaData: {
+                    artist: "tinis",
+                    title: "family"
+                },
+                url: "https://media.vocaroo.com/mp3/aYqliNOAbkB",
+                
+            }],
+        }).renderWhenReady(document.getElementById('app'));
+    </script>
 
 
 
