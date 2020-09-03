@@ -8,8 +8,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: left;
-  background-size: contain;
+  background-size: 60%;
   
+}
+.amp {
+  margin-top: 60px;
+  margin-bottom: 0px;
+  margin-right: 60px;
+  margin-left: 60%;
 }
 .center {
   margin: auto;
@@ -24,17 +30,23 @@ img {
 }
 #info {
   border: 1px solid black;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 60%;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  margin-right: 60px;
+  margin-left: 77%;
   background-color: lightblue;  
 }
 
 </style>
 </head>
 <body>
- <div id="app" style="height: 100vh">
+<div id="info">
+    lii ba laabo loo luu kannattaa konnattaa kukkuulii ba laabo loo luu kannattaa konnattaa
+    kukkuulii ba laabo loo luu kannattaa konnattaa kukkuulii ba laabo loo luu 
+    kannattaa konnattaa kukkuulii ba laabo loo luu kannattaa konnattaa kukkuu
+  
+  </div>
+ <div class="amp" id="app" style="height: 60vh">
         <!-- Webamp will attempt to center itself within this div -->
     </div>
     <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
@@ -51,12 +63,7 @@ img {
             }],
         }).renderWhenReady(document.getElementById('app'));
     </script>
-  <div id="info">
-    lii ba laabo loo luu kannattaa konnattaa kukkuulii ba laabo loo luu kannattaa konnattaa
-    kukkuulii ba laabo loo luu kannattaa konnattaa kukkuulii ba laabo loo luu 
-    kannattaa konnattaa kukkuulii ba laabo loo luu kannattaa konnattaa kukkuu
   
-  </div>
 
 
 
