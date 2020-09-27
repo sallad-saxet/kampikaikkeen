@@ -22,12 +22,7 @@ body {
   width: 50%;
   padding: 10px;
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
+
 #info {
   border: 1px solid black;
   margin-top: 60px;
@@ -36,14 +31,20 @@ img {
   margin-left: 77%;
   background-color: lightblue;  
 }
+#kotiin {
+  padding-left:20px;
+}
 
 </style>
 </head>
 <body>
 <div id="info">
-    lii ba laabo loo luu kannattaa konnattaa kukkuulii ba laabo loo luu kannattaa konnattaa
-    kukkuulii ba laabo loo luu kannattaa konnattaa kukkuulii ba laabo loo luu 
-    kannattaa konnattaa kukkuulii ba laabo loo luu kannattaa konnattaa kukkuu
+    Jos soittimesta ei meinaa saada mitään selvää, sen kokoa voi kasvattaa jollakin seuraavista menetelmistä:
+<ul>
+<li>napsauta soittimen yläpalkista hiiren kakkospainikkeella ja valitse "Options" -> "Double Size"</li>
+<li>napsauta soittimen informaationäytön "D"-symbolia, joka on vasemmassa laidassa toiseksi alimpana</li>
+</ul>
+
   
   </div>
  <div class="amp" id="app" style="height: 60vh">
@@ -55,8 +56,8 @@ img {
         new Webamp({
             initialTracks: [{
                 metaData: {
-                    artist: "tinis",
-                    title: "family"
+                    artist: "peten breakfast",
+                    title: "en nimennyt"
                 },
                 url: "https://media.vocaroo.com/mp3/aYqliNOAbkB",
                 
@@ -64,7 +65,9 @@ img {
         }).renderWhenReady(document.getElementById('app'));
     </script>
   
-
+<div id="kotiin">
+<a href="valikko.htm"><img src="../kuva/omat-kuvat/kotiin_tumma_100px.jpg" alt="Kotiin">
+</div>
 
 
 </body>
